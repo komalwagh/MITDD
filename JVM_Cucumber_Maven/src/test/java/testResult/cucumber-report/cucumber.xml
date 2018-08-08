@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="342.296552">
+<testcase classname="DomainZ" name="A customer recharge prepaid account from both console and DomainZ using existing credit card" time="42.590084">
+<system-out><![CDATA[Given Enter User name fnurani...............................................passed
+Then Enter Password comein22................................................passed
+Then Click on Login button..................................................passed
+Then Enter Greencode in Account reference field PAY-308.....................passed
+Then Click on Submit button.................................................passed
+Then Click on View invoice and prepaid detail...............................passed
+Then Click on prepaid account details.......................................passed
+Then Select existing credit card............................................passed
+Then Enter amount in purchase credit field 15...............................passed
+Then Click on purchase credit button........................................passed
+Then Verify success message Credit purchased successfully...................passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="A customer recharge prepaid account from console using new credit card" time="44.795571">
+<system-out><![CDATA[Given Enter User name fnurani...............................................passed
+Then Enter Password comein22................................................passed
+Then Click on Login button..................................................passed
+Then Enter Greencode in Account reference field PAY-308.....................passed
+Then Click on Submit button.................................................passed
+Then Click on View invoice and prepaid detail...............................passed
+Then Click on prepaid account details.......................................passed
+Then Enter visa card owner name Test User - VISA............................passed
+Then Switch admin to iframe card number.....................................passed
+Then Enter credit card number 4111111111111111..............................passed
+Then Switch admin iframe to emp months......................................passed
+Then Enter expiry month 01..................................................passed
+Then Switch admin to iframe card expiry year................................passed
+Then Enter expiry year 2019.................................................passed
+Then Switch admin to iframe card cvv........................................passed
+Then Enter CVV 456..........................................................passed
+Then Enter amount in purchase credit field 10...............................passed
+Then Click on purchase credit button........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="A customer recharge prepaid account from both console and DomainZ using new credit card" time="57.410168">
+<system-out><![CDATA[Given Enter User name fnurani...............................................passed
+Then Enter Password comein22................................................passed
+Then Click on Login button..................................................passed
+Then Enter Greencode in Account reference field PAY-308.....................passed
+Then Click on Submit button.................................................passed
+Then Click on Login As Client...............................................passed
+Then Click on Account tab...................................................passed
+Then Click on Edit for prepaid account......................................passed
+Then Click on rechrge using credit card.....................................passed
+Then Check using new credit card............................................passed
+Then Enter Card owner name Test User - VISA.................................passed
+Then Enter domainZ Card number 4111111111111111.............................passed
+Then Select expiry month 08.................................................passed
+Then Select expiry year 2025................................................passed
+Then Enter domainZ CVV number  456..........................................passed
+Then Enter prepaid amount 15................................................passed
+Then Click on submit button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="Verification of field validation of card owner field, card number and CVV code" time="22.717366">
+<system-out><![CDATA[Given Enter domain name testpgcard221.......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name AlphaNumeric0123456789...........................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 4111111111111111.....................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 456..............................................passed
+Then Select I agree checkbox................................................passed
+Then Click on continue button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="Verification of field validation of card owner field, card number and CVV code" time="21.547945">
+<system-out><![CDATA[Given Enter domain name testpgcard221.......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Test!"*#%&()^:;<>=?[/]_..........................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 4111111111111111.....................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 456..............................................passed
+Then Select I agree checkbox................................................passed
+Then Click on continue button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="Verification of field validation of card owner field, card number and CVV code" time="21.713943">
+<system-out><![CDATA[Given Enter domain name testpgcard221.......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Mr. John Doe.....................................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 4111111111111111.....................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 456..............................................passed
+Then Select I agree checkbox................................................passed
+Then Click on continue button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="Verification of field validation of card owner field, card number and CVV code" time="21.799524">
+<system-out><![CDATA[Given Enter domain name testpgcard221.......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Mr. Payment Gateway Test01.......................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 4111111111111111.....................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 456..............................................passed
+Then Select I agree checkbox................................................passed
+Then Click on continue button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="A customer inputs invalid data in card number field." time="22.007888">
+<system-out><![CDATA[Given Enter domain name testpgcard221.......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Test Card Number Count...........................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 555555555555444......................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 888..............................................passed
+Then Select I agree checkbox................................................passed
+Then Verify alert message invalid card number Card Number is invalid........passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="A customer inputs invalid data in CVV number field" time="21.597733">
+<system-out><![CDATA[Given Enter domain name testpgcard221.......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Test Card Number Count...........................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 4111111111111111.....................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 12...............................................passed
+Then Select I agree checkbox................................................passed
+Then Verify alert message invalid cvv number Card Security Code is invalid..passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="Verification of invalid card types ie Amex, Diner and JCB" time="22.320623">
+<system-out><![CDATA[Given Enter domain name testdomain1246......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Test Card - Amex.................................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 3782 822463 10005....................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 8888.............................................passed
+Then Select I agree checkbox................................................passed
+Then Verify alert message for Amex card Card type is not supported..........passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="Verification of invalid card types ie Amex, Diner and JCB" time="22.323285">
+<system-out><![CDATA[Given Enter domain name testdomain1246......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Test Card - Diner................................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 30569309025904.......................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 888..............................................passed
+Then Select I agree checkbox................................................passed
+Then Verify alert message for Amex card Card type is not supported..........passed
+]]></system-out>
+</testcase>
+<testcase classname="DomainZ" name="Verification of invalid card types ie Amex, Diner and JCB" time="21.472422">
+<system-out><![CDATA[Given Enter domain name testdomain1246......................................passed
+Then Select domain service..................................................passed
+Then Uncheck au domain service..............................................passed
+Then Click on search button.................................................passed
+Then Click on cotinue to checkout button....................................passed
+Then Click on No thanks pop up..............................................passed
+Then Click on continue to account...........................................passed
+Then Enter organisation name Payment Gateway Test...........................passed
+Then Enter first name QA....................................................passed
+Then Enter last name Team...................................................passed
+Then Enter address 2/469 La Trobe Street....................................passed
+Then Enter city name Auckland...............................................passed
+Then Select state North Island..............................................passed
+Then Enter post code 0626...................................................passed
+Then Enter phone number 064411111111........................................passed
+Then Enter email testing@melbourneit.com.au.................................passed
+Then Enter confirmation mail testing@melbourneit.com.au.....................passed
+Then Click on continue to payment page......................................passed
+Then Click on continue to registrant page...................................passed
+Then Enter card owner name Test Card - JCB..................................passed
+Then Switch to iframe card number...........................................passed
+Then Enter card number 3530111333300000.....................................passed
+Then Switch to iframe card expiry month.....................................passed
+Then Select card expiry month 12............................................passed
+Then Switch to iframe card expiry year......................................passed
+Then Select card expiry year 2019...........................................passed
+Then Switch to iframe card cvv..............................................passed
+Then Enter card CVV number 888..............................................passed
+Then Select I agree checkbox................................................passed
+Then Verify alert message for Amex card Card type is not supported..........passed
+]]></system-out>
+</testcase>
+</testsuite>
